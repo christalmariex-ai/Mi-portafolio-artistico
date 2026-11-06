@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Christal Flores · Dibujo y Pintura</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Inter:wght@300;400;500&family=Caveat:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="header">
+    <a href="#inicio" class="logo">
+      <span class="logo__icono" aria-hidden="true">✿</span>
+      <span class="logo__nombre">Christal Flores</span>
+      <span class="logo__lema">Dibujo &amp;<br>Pintura</span>
+    </a>
+    <nav class="nav" aria-label="Principal">
+      <ul>
+        <li><a href="#pinturas">Pinturas</a></li>
+        <li><a href="#dibujos">Dibujos</a></li>
+        <li><a href="#exploraciones">Exploraciones</a></li>
+        <li><a href="#contacto" class="btn btn--borde">Hablemos ↗</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero__texto">
+        <p class="etiqueta">Artista independiente · Sanchez Ramirez</p>
+        <h1>Dibujar lo que casi <em>no se ve.</em></h1>
+        <p class="hero__descripcion">Soy Christal. Convierto pequeñas cosas en universos de papel, lápiz y color. Ilustración con sensibilidad y un poquito de extrañeza.</p>
+        <div class="hero__acciones">
+          <a href="#obra" class="btn btn--lleno">Explorar mi obra ↗</a>
+        </div>
+      </div>
+
+      <figure class="hero__marco">
+        <div class="hero__imagen">
+          <img src=" img/img-musica-bajo-las-estrellas.jpeg " alt="  ">
+        </div>
+        <figcaption><span class="nota">     </span><small>Acrilico</small></figcaption>
+        <span class="nota nota--ventana">una ventana a mi mundo ↑</span>
+      </figure>
+    </section>
+
+    <section class="franja" aria-label="Especialidades">
+      <p class="franja__titulo">Trazos con intención</p>
+      <ul class="franja__lista">
+        <li>Ilustración editorial</li>
+        <li>Dibujo</li>
+      </ul>
+    </section>
+
+    <section class="obra" id="obra">
+      <div class="obra__cabecera">
+        <div>
+          <p class="etiqueta">01 / Obra seleccionada</p>
+          <h2>Pequeños mundos propios.</h2>
+        </div>
+        <p class="obra__intro">Una selección de lo que imagino, observo y guardo. Cada dibujo, otra forma de mirar.</p>
+      </div>
+
+      <nav class="indice" aria-label="Secciones de la obra">
+        <ul>
+          <li><a href="#pinturas" class="indice__item indice__item--pintura"><span>Pinturas</span></a></li>
+          <li><a href="#dibujos" class="indice__item indice__item--dibujo"><span>Dibujos</span></a></li>
+          <li><a href="#exploraciones" class="indice__item indice__item--explo"><span>Exploraciones</span></a></li>
+        </ul>
+        <span class="indice__anios">2025 → 2023</span>
+      </nav>
+
+
+      <!-- ===== PINTURAS ===== -->
+      <section class="coleccion coleccion--pintura" id="pinturas">
+        <header class="coleccion__cabecera">
+          <h3 class="coleccion__titulo">Pinturas</h3>
+          <p class="coleccion__texto">Acrílico sobre lienzo. Color, cielo y paisaje.</p>
+        </header>
+
+        <div class="anio">
+          <h4 class="anio__titulo">2025</h4>
+          <div class="galeria">
+            <article class="pieza">
+              <a href="#">
+                <div class="pieza__imagen"><img src=" img/tarde-de-camp.jpeg " alt="   "></div>
+                <div class="pieza__info">
+                  <h5>Tarde de Campo</h5>
+                  <p>Acrilico  · 2025</p>
+                </div>
+              </a>
+            </article>
+            <article class="pieza pieza--vacia"><div class="pieza__imagen"><span class="mas">＋</span><small>Tu próxima obra</small></div></article>
+          </div>
+        </div>
+        
+        <article class="pieza">
+          <a href="#">
+            <div class="pieza__imagen"><img src="" alt="Descripción"></div>
+            <div class="pieza__info">
+              <h5>Título de la obra</h5>
+              <p>Técnica · Año</p>
+            </div>
+          </a>
+        </article>
+
+        <div class="anio">
+          <h4 class="anio__titulo">2024</h4>
+          <div class="galeria">
+            <article class="pieza">
+              <a href="#">
+                <div class="pieza__imagen pieza__imagen--clara"><img src="img/Cielo-y-montana.jpeg   " alt="    "></div>
+                <div class="pieza__info">
+                  <h5>Cielo y Montaña</h5>
+                  <p> · Acrilico sobre lienzo · 2024</p>
+                </div>
+              </a>
+            </article>
+            <article class="pieza pieza--vacia"><div class="pieza__imagen"><span class="mas">＋</span><small>Tu próxima obra</small></div></article>
+          </div>
+        </div>
+
+        <div class="anio">
+          <h4 class="anio__titulo">2023</h4>
+          <div class="galeria">
+            <article class="pieza pieza--vacia"><div class="pieza__imagen"><span class="mas">＋</span><small>Tu próxima obra</small></div></article>
+            <article class="pieza pieza--vacia"><div class="pieza__imagen"><span class="mas">＋</span><small>Tu próxima obra</small></div></article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===== DIBUJOS ===== -->
+      <section class="coleccion coleccion--dibujo" id="dibujos">
+        <header class="coleccion__cabecera">
+          <h3 class="coleccion__titulo">Dibujos</h3>
+          <p class="coleccion__texto">Pastel, acuarela y lápices de colores. Papel, trazo y detalle.</p>
+        </header>
+
+        <div class="anio">
+          <h4 class="anio__titulo">2025</h4>
+          <div class="galeria">
+            <article class="pieza">
+              <a href="#">
+                <div class="pieza__imagen"><img src=" img/pueblo-de-colores.jpeg " alt="     "></div>
+                <div class="pieza__info">
+                  <h5>Pueblo de Colores</h5>
+                  <p>Pastel · 2025</p>
+                </div>
+              </a>
+            </article>
+            <article class="pieza">
+              <a href="#">
+                <div class="pieza__imagen"><img src="img/bellas-artes.jpeg " alt="  "></div>
+                <div class="pieza__info">
+                  <h5>Bellas Artes</h5>
+                  <p>Acuarela ·Lápiz de colores · 2025</p>
+                </div>
+              </a>
+            </article>
+            <article class="pieza pieza--vacia"><div class="pieza__imagen"><span class="mas">＋</span><small>Tu próxima obra</small></div></article>
+            <article class="pieza pieza--vacia"><div class="pieza__imagen"><span class="mas">＋</span><small>Tu próxima obra</small></div></article>
+          </div>
+        </div>
+
+        <div class="anio">
+          <h4 class="anio__titulo">2024</h4>
+          <div class="galeria">
+            <article class="pieza pieza--vacia"><div class="pieza__imagen"><span class="mas">＋</span><small>Tu próxima obra</small></div></article>
+            <article class="pieza pieza--vacia"><div class="pieza__imagen"><span class="mas">＋</span><small>Tu próxima obra</small></div></article>
+          </div>
+        </div>
+
+        <div class="anio">
+          <h4 class="anio__titulo">2023</h4>
+          <div class="galeria">
+            <article class="pieza pieza--vacia"><div class="pieza__imagen"><span class="mas">＋</span><small>Tu próxima obra</small></div></article>
+            <article class="pieza pieza--vacia"><div class="pieza__imagen"><span class="mas">＋</span><small>Tu próxima obra</small></div></article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===== EXPLORACIONES ===== -->
+      <section class="coleccion coleccion--explo" id="exploraciones">
+        <header class="coleccion__cabecera">
+          <h3 class="coleccion__titulo">Exploraciones</h3>
+          <p class="coleccion__texto">Bocetos, pruebas de color y experimentos en proceso.</p>
+        </header>
+
+        <div class="anio">
+          <h4 class="anio__titulo">2025</h4>
+          <div class="galeria">
+            <article class="pieza pieza--vacia"><div class="pieza__imagen"><span class="mas">＋</span><small>Tu próxima obra</small></div></article>
+            <article class="pieza pieza--vacia"><div class="pieza__imagen"><span class="mas">＋</span><small>Tu próxima obra</small></div></article>
+          </div>
+        </div>
+
+        <div class="anio">
+          <h4 class="anio__titulo">2024</h4>
+          <div class="galeria">
+            <article class="pieza pieza--vacia"><div class="pieza__imagen"><span class="mas">＋</span><small>Tu próxima obra</small></div></article>
+            <article class="pieza pieza--vacia"><div class="pieza__imagen"><span class="mas">＋</span><small>Tu próxima obra</small></div></article>
+          </div>
+        </div>
+      </section>
+    </section>
+  </main>
+
+  <footer class="footer" id="contacto">
+    <p>Hablemos: <a href="mailto:christalmariex@gmail.com">christalmariex@gmail.com</a></p>
+    <small>© 2026 Christal Flores</small>
+  </footer>
+
+</body>
+</html>
