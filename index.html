@@ -29,7 +29,7 @@
   <main>
     <section class="hero" id="inicio">
       <div class="hero__texto">
-        <p class="etiqueta">Artista independiente · Sanchez Ramirez</p>
+        <p class="etiqueta">Artista independiente · Sánchez Ramírez </p>
         <h1> <em>Color, papel y lápiz </em></h1>
         <p class="hero__descripcion">Soy Christal, artista dominicana, aqui puedes ver mis trabajos, incluye dibujos y pinturas.</p>
         <div class="hero__acciones">
@@ -39,10 +39,8 @@
 
       <figure class="hero__marco">
         <div class="hero__imagen">
-          <img src=" img/img-musica-bajo-las-estrellas.jpeg " alt="personas sintiendo la musica bajo las estrellas. gi">
+          <img src=" img/foto-christal.jpeg " alt=" Retrato de Christal Flores, artista dominicana, con cabello largo y oscuro y sonriendo.">
         </div>
-        <figcaption><span class="nota">     </span><small>Acrilico</small></figcaption>
-        <span class="nota nota--ventana">Música bajo las estrellas ↑</span>
       </figure>
     </section>
 
@@ -95,6 +93,15 @@
                   <h5>Lagrimas</h5>
                   <p>acrílico, técnica mixta
                      · 2025</p>
+                </div>
+              </a>
+            </article>
+            <article class="pieza">
+              <a href="#">
+                <div class="pieza__imagen"><img src="img/img-musica-bajo-las-estrellas.jpeg" alt="Pintura en acrílico: música bajo las estrellas"></div>
+                <div class="pieza__info">
+                  <h5>Música bajo las estrellas</h5>
+                  <p>Acrílico · 2025</p>
                 </div>
               </a>
             </article>
@@ -184,36 +191,16 @@
     </section>
   </main>
 
-  <footer class="footer" id="contacto">
-    <p>Hablemos: <a href="mailto:christalmariex@gmail.com">christalmariex@gmail.com</a></p>
-    <small>© 2026 Christal Flores</small>
-  </footer>
-
-
-  <script>
+ <footer class="footer" id="contacto">
+  <p>Hablemos:</p>
+  <div class="footer__botones">
+   <a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=christalmariex@gmail.com&amp;su=Hola%20Christal" class="btn btn--lleno" target="_blank" rel="noopener">christalmariex@gmail.com</a>
+    <a href="https://wa.me/18297528780" class="btn btn--borde" target="_blank" rel="noopener">WhatsApp</a>
+    <a href="https://www.instagram.com/chriss_paint?vrfl=cjNoajdleTJqOGVv" class="btn btn--borde" target="_blank" rel="noopener">Instagram</a>
+  </div>
+  <small>© 2026 Christal Flores</small>
+</footer>
    
-    (function () {
-      var PADDING = 23; 
-
-      function ajustar() {
-        var altura = Math.max(240, Math.min(window.innerHeight * 0.62, 560));
-        document.querySelectorAll('.galeria').forEach(function (galeria) {
-          galeria.querySelectorAll('.pieza').forEach(function (pieza) {
-            var img = pieza.querySelector('img');
-            var forma = (img && img.naturalWidth && img.naturalHeight) ? img.naturalWidth / img.naturalHeight : 0.8;
-            pieza.style.flex = '0 1 ' + Math.round(altura * forma + PADDING) + 'px';
-          });
-        });
-      }
-
-      document.querySelectorAll('.pieza img').forEach(function (img) {
-        if (!img.complete) { img.addEventListener('load', ajustar); }
-      });
-      window.addEventListener('resize', ajustar);
-      window.addEventListener('load', ajustar);
-      ajustar();
-    })();
-  </script>
-
+    
 </body>
 </html>
