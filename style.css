@@ -116,7 +116,7 @@ a {
   right: 0;
   bottom: 0;
   height: 4px;
-  background: linear-gradient(90deg, var(--coral), var(--mostaza), var(--turquesa), var(--azul), var(--lila));
+  background: linear-gradient(90deg, var(--coral));
 }
 
 .logo {
@@ -165,7 +165,7 @@ a {
   gap: 4rem;
   align-items: center;
   padding: 5rem 5vw;
-  background: var(--crema);
+  background:GIT var(--crema);
 }
 
 .hero::before {
@@ -414,7 +414,6 @@ a {
 }
 
 .coleccion__titulo::before {
-  content: "✿ ";
   font-size: .7em;
   vertical-align: .1em;
 }
