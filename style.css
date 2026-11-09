@@ -692,3 +692,7 @@ a {
     font-size: 2.4rem;
   }
 }
+
+.galeria + .galeria { margin-top: 2rem; }
+.pieza__imagen img { aspect-ratio: auto 4 / 5; }
+.pieza__imagen--horizontal img { aspect-ratio: auto 7 / 5; }

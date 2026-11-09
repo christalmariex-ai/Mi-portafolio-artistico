@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -67,7 +68,25 @@
         <span class="indice__anios">2025 → 2024</span>
       </nav>
 
+      <!--
+        ================================================================
+        CÓMO AGREGAR TUS IMÁGENES NUEVAS
+        Los espacios pendientes ya están armados. Solo cambia 4 cosas
+        dentro de cada <article>:
+          1) img src="img/..."   -> el nombre de tu archivo (carpeta img)
+          2) alt="..."           -> describe lo que se ve en la obra
+          3) <h5>...</h5>        -> el título
+          4) <p>...</p>          -> técnica · año
+        Los espacios pendientes usan estos nombres de archivo:
+          pintura-nueva-1.jpeg ... pintura-nueva-4.jpeg
+          dibujo-nuevo-1.jpeg y dibujo-nuevo-2.jpeg
+        (puedes ponerle a tus fotos esos nombres, o cambiar el src)
+        La pintura nueva 1 es la HORIZONTAL (tiene class "pieza__imagen--horizontal").
+        Cuando ya tenga su imagen, esa clase puede quedarse o borrarse.
+        ================================================================
+      -->
 
+      <!-- ===== PINTURAS ===== -->
       <section class="coleccion coleccion--pintura" id="pinturas">
         <header class="coleccion__cabecera">
           <h3 class="coleccion__titulo">Pinturas</h3>
@@ -110,6 +129,8 @@
 
         <div class="anio">
           <h4 class="anio__titulo">2024</h4>
+
+          <!-- Fila 1 -->
           <div class="galeria">
             <article class="pieza">
               <a href="#">
@@ -130,9 +151,54 @@
               </a>
             </article>
           </div>
+
+          <!-- Fila 2 (la primera es la HORIZONTAL) -->
+          <div class="galeria">
+            <article class="pieza">
+              <a href="#">
+                <div class="pieza__imagen pieza__imagen--horizontal"><img src="img/dos-leyendas.jpeg" alt="retrato de dos leyendas"></div>
+                <div class="pieza__info">
+                  <h5>Dos Leyendas</h5>
+                  <p>Acrílico sobre lienzo · 2024</p>
+                </div>
+              </a>
+            </article>
+            <article class="pieza">
+              <a href="#">
+                <div class="pieza__imagen"><img src=" img/el-bodegon.jpeg " alt="El Bodegón"></div>
+                <div class="pieza__info">
+                  <h5>El Bodegón</h5>
+                  <p>Acrílico sobre papel · 2024</p>
+                </div>
+              </a>
+            </article>
+          </div>
+
+
+          <div class="galeria">
+            <article class="pieza">
+              <a href="#">
+                <div class="pieza__imagen"><img src="img/perro-de-colores.jpeg" alt="Perro de colores"></div>
+                <div class="pieza__info">
+                  <h5>Perro de Colores</h5>
+                  <p>Acrílico sobre papel · 2024</p>
+                </div>
+              </a>
+            </article>
+            <article class="pieza">
+              <a href="#">
+                <div class="pieza__imagen"><img src="img/retrato-de-Tae-de-bts.jpeg " alt="retrato de Tae de BTS"></div>
+                <div class="pieza__info">
+                  <h5>Retrato de Tae de BTS</h5>
+                  <p>Acrílico sobre papel · 2024</p>
+                </div>
+              </a>
+            </article>
+          </div>
         </div>
       </section>
 
+      
       
       <section class="coleccion coleccion--dibujo" id="dibujos">
         <header class="coleccion__cabecera">
@@ -166,6 +232,8 @@
 
         <div class="anio">
           <h4 class="anio__titulo">2024</h4>
+
+          <!-- Fila 1 -->
           <div class="galeria">
             <article class="pieza">
               <a href="#">
@@ -186,6 +254,28 @@
               </a>
             </article>
           </div>
+
+        
+          <div class="galeria">
+            <article class="pieza">
+              <a href="#">
+                <div class="pieza__imagen"><img src=" img/retrato-mahatma-gandhi.jpeg " alt="Retrato de Mahatma Gandhi"></div>
+                <div class="pieza__info">
+                  <h5>Retrato de Mahatma Gandhi</h5>
+                  <p>Carboncillo · 2024</p>
+                </div>
+              </a>
+            </article>
+            <article class="pieza">
+              <a href="#">
+                <div class="pieza__imagen"><img src=" img/cuatro-paredes.jpeg " alt="Dibujo nuevo 2"></div>
+                <div class="pieza__info">
+                  <h5>Cuatro Paredes</h5>
+                  <p>Acuarela y lápices de colores · 2024</p>
+                </div>
+              </a>
+            </article>
+          </div>
         </div>
       </section>
     </section>
@@ -194,7 +284,7 @@
  <footer class="footer" id="contacto">
   <p>Hablemos:</p>
   <div class="footer__botones">
-   <a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=christalmariex@gmail.com&amp;su=Hola%20Christal" class="btn btn--lleno" target="_blank" rel="noopener">christalmariex@gmail.com</a>
+    <a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=christalmariex@gmail.com&amp;su=Hola%20Christal" class="btn btn--lleno" target="_blank" rel="noopener">christalmariex@gmail.com</a>
     <a href="https://wa.me/18297528780" class="btn btn--borde" target="_blank" rel="noopener">WhatsApp</a>
     <a href="https://www.instagram.com/chriss_paint?vrfl=cjNoajdleTJqOGVv" class="btn btn--borde" target="_blank" rel="noopener">Instagram</a>
   </div>
